@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<commands>
+
+-- Server Admins
+<command cmd="/openserver" access="3" />    -- Open the server
+<command cmd="/closeserver" access="3" />	-- Close the server
+<command cmd="/refreshmap" access="3" />	-- Reload
+<command cmd="/save" access="3" />	        -- Save the server (players remain online)
+<command cmd="/tileinfo" access="3" />
+<command cmd="/summon" access="3" />		-- Summons a while pokemanz
+
+-- Gamemasters
+<command cmd="/goto" access="2" />			-- Teleport to players or NPCs
+<command cmd="/get" access="2" />			-- Teleport a player to you
+<command cmd="/kick" access="2" />			-- Kick a player
+<command cmd="/repel" access="2" />			-- Enable/Disable unlimited repel
+
+-- Tutors
+<command cmd="/B" access="1" />				-- Red broadcast message
+
+-- Players
+<command cmd="/listpokemon" access="0" />	-- Sends party list
+</commands>

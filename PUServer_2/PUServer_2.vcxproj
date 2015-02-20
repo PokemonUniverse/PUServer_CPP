@@ -1,0 +1,400 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{9AF8EDF5-DD9D-48DC-ADED-145C056408B9}</ProjectGuid>
+    <RootNamespace>PUServer_2</RootNamespace>
+    <Keyword>ManagedCProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <CLRSupport>false</CLRSupport>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <CLRSupport>false</CLRSupport>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>H:\Programmeren\Dependencies\mysql\include;H:\Programmeren\Dependencies\boost;H:\Programmeren\Dependencies;H:\Programmeren\Dependencies\libxml2-2.7.7.win32\include\libxml;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_CRT_SECURE_NO_WARNINGS;_WINDOWS;_WIN32_WINNT=0x0501;WIN32_LEAN_AND_MEAN;BOOST_DATE_TIME_NO_LIB;BOOST_REGEX_NO_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>libmysql.lib;libxml2.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>H:\Programmeren\Dependencies\mysql\lib\debug;H:\Programmeren\Dependencies\boost\lib;H:\Programmeren\Dependencies;H:\Programmeren\Dependencies\libxml2-2.7.7.win32\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <IgnoreSpecificDefaultLibraries>msvcprtd.lib;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AssemblyDebug>true</AssemblyDebug>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <AdditionalIncludeDirectories>H:\Programmeren\Dependencies\mysql\include;H:\Programmeren\Dependencies\boost;H:\Programmeren\Dependencies\;H:\Programmeren\Dependencies\libxml2-2.7.7.win32\include\libxml;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;_CRT_SECURE_NO_WARNINGS;_WINDOWS;_WIN32_WINDOWS;WIN32_LEAN_AND_MEAN;BOOST_DATE_TIME_NO_LIB;BOOST_REGEX_NO_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <WarningLevel>Level2</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>libmysql.lib;libxml2.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>H:\Programmeren\Dependencies\mysql\lib\opt;H:\Programmeren\Dependencies\boost\lib;H:\Programmeren\Dependencies\libxml2-2.7.7.win32\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <IgnoreSpecificDefaultLibraries>msvcprtd.lib;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="configmanager.cpp" />
+    <ClCompile Include="connection.cpp" />
+    <ClCompile Include="creature.cpp" />
+    <ClCompile Include="game.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="map.cpp" />
+    <ClCompile Include="npc.cpp" />
+    <ClCompile Include="packet.cpp" />
+    <ClCompile Include="player.cpp" />
+    <ClCompile Include="pokemon.cpp" />
+    <ClCompile Include="pokemonparty.cpp" />
+    <ClCompile Include="pokemonspecies.cpp" />
+    <ClCompile Include="pokemonspeciesdata.cpp" />
+    <ClCompile Include="quest.cpp" />
+    <ClCompile Include="server.cpp" />
+    <ClCompile Include="tile.cpp" />
+    <ClCompile Include="towns.cpp" />
+    <ClCompile Include="warp.cpp" />
+    <ClCompile Include="database.cpp" />
+    <ClCompile Include="databasemysql.cpp" />
+    <ClCompile Include="battlefield.cpp" />
+    <ClCompile Include="battlefield_pvp.cpp" />
+    <ClCompile Include="battleteam.cpp" />
+    <ClCompile Include="battleturn.cpp" />
+    <ClCompile Include="advancedmechanics.cpp" />
+    <ClCompile Include="jewelmechanics.cpp" />
+    <ClCompile Include="pokemonnature.cpp" />
+    <ClCompile Include="pokemontype.cpp" />
+    <ClCompile Include="statmultiplier.cpp" />
+    <ClCompile Include="absorbmove.cpp" />
+    <ClCompile Include="countermove.cpp" />
+    <ClCompile Include="damagelistenermove.cpp" />
+    <ClCompile Include="healthbasedmove.cpp" />
+    <ClCompile Include="hiddenpowermove.cpp" />
+    <ClCompile Include="jumpkickmove.cpp" />
+    <ClCompile Include="movelist.cpp" />
+    <ClCompile Include="movelistentry.cpp" />
+    <ClCompile Include="multiplehitmove.cpp" />
+    <ClCompile Include="onehitkillmove.cpp" />
+    <ClCompile Include="pokemonmove.cpp" />
+    <ClCompile Include="protectmove.cpp" />
+    <ClCompile Include="rampagemove.cpp" />
+    <ClCompile Include="recoilmove.cpp" />
+    <ClCompile Include="statchangeswapmove.cpp" />
+    <ClCompile Include="statusmove.cpp" />
+    <ClCompile Include="stockpilemove.cpp" />
+    <ClCompile Include="typecutmove.cpp" />
+    <ClCompile Include="weathermove.cpp" />
+    <ClCompile Include="attracteffect.cpp" />
+    <ClCompile Include="awesomeeffect.cpp" />
+    <ClCompile Include="burneffect.cpp" />
+    <ClCompile Include="chargeeffect.cpp" />
+    <ClCompile Include="confuseeffect.cpp" />
+    <ClCompile Include="conversioneffect.cpp" />
+    <ClCompile Include="countereffect.cpp" />
+    <ClCompile Include="damagelistenereffect.cpp" />
+    <ClCompile Include="defensecurleffect.cpp" />
+    <ClCompile Include="delayeddamageeffect.cpp" />
+    <ClCompile Include="delayedstatuseffect.cpp" />
+    <ClCompile Include="delegationeffect.cpp" />
+    <ClCompile Include="fixedattackeffect.cpp" />
+    <ClCompile Include="flincheffect.cpp" />
+    <ClCompile Include="freezeeffect.cpp" />
+    <ClCompile Include="ingraineffect.cpp" />
+    <ClCompile Include="invulnerablestateeffect.cpp" />
+    <ClCompile Include="leechseedeffect.cpp" />
+    <ClCompile Include="magnetriseeffect.cpp" />
+    <ClCompile Include="minimizeeffect.cpp" />
+    <ClCompile Include="multiplestatchangeeffect.cpp" />
+    <ClCompile Include="nightmareeffect.cpp" />
+    <ClCompile Include="paralysiseffect.cpp" />
+    <ClCompile Include="percenteffect.cpp" />
+    <ClCompile Include="perishsongeffect.cpp" />
+    <ClCompile Include="poisoneffect.cpp" />
+    <ClCompile Include="restrainingeffect.cpp" />
+    <ClCompile Include="sleepeffect.cpp" />
+    <ClCompile Include="statchangeeffect.cpp" />
+    <ClCompile Include="statcuteffect.cpp" />
+    <ClCompile Include="stockpileeffect.cpp" />
+    <ClCompile Include="toxiceffect.cpp" />
+    <ClCompile Include="trappingeffect.cpp" />
+    <ClCompile Include="compoundeyesability.cpp" />
+    <ClCompile Include="criticaltypeability.cpp" />
+    <ClCompile Include="intrinsicability.cpp" />
+    <ClCompile Include="opponenteffectability.cpp" />
+    <ClCompile Include="trappingability.cpp" />
+    <ClCompile Include="fieldeffect.cpp" />
+    <ClCompile Include="gravityeffect.cpp" />
+    <ClCompile Include="haileffect.cpp" />
+    <ClCompile Include="partyeffect.cpp" />
+    <ClCompile Include="raineffect.cpp" />
+    <ClCompile Include="sandstormeffect.cpp" />
+    <ClCompile Include="speedswapeffect.cpp" />
+    <ClCompile Include="stealthrockeffect.cpp" />
+    <ClCompile Include="suneffect.cpp" />
+    <ClCompile Include="tailwindeffect.cpp" />
+    <ClCompile Include="toxicspikeseffect.cpp" />
+    <ClCompile Include="weathereffect.cpp" />
+    <ClCompile Include="holditem.cpp" />
+    <ClCompile Include="iogame.cpp" />
+    <ClCompile Include="iomap_db.cpp" />
+    <ClCompile Include="iomap_v2.cpp" />
+    <ClCompile Include="ioplayer.cpp" />
+    <ClCompile Include="items.cpp" />
+    <ClCompile Include="sha1.cpp" />
+    <ClCompile Include="tools.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="condition.h" />
+    <ClInclude Include="configmanager.h" />
+    <ClInclude Include="connection.h" />
+    <ClInclude Include="container.h" />
+    <ClInclude Include="creature.h" />
+    <ClInclude Include="cylinder.h" />
+    <ClInclude Include="definitions.h" />
+    <ClInclude Include="depot.h" />
+    <ClInclude Include="enums.h" />
+    <ClInclude Include="game.h" />
+    <ClInclude Include="gametext.h" />
+    <ClInclude Include="house.h" />
+    <ClInclude Include="logger.h" />
+    <ClInclude Include="map.h" />
+    <ClInclude Include="npc.h" />
+    <ClInclude Include="outfit.h" />
+    <ClInclude Include="packet.h" />
+    <ClInclude Include="player.h" />
+    <ClInclude Include="pokemon.h" />
+    <ClInclude Include="pokemonparty.h" />
+    <ClInclude Include="pokemonspecies.h" />
+    <ClInclude Include="pokemonspeciesdata.h" />
+    <ClInclude Include="position.h" />
+    <ClInclude Include="quest.h" />
+    <ClInclude Include="server.h" />
+    <ClInclude Include="templates.h" />
+    <ClInclude Include="thing.h" />
+    <ClInclude Include="tile.h" />
+    <ClInclude Include="tileevent.h" />
+    <ClInclude Include="tilehouse.h" />
+    <ClInclude Include="towns.h" />
+    <ClInclude Include="warp.h" />
+    <ClInclude Include="database.h" />
+    <ClInclude Include="databasemysql.h" />
+    <ClInclude Include="battle.h" />
+    <ClInclude Include="battleevents.h" />
+    <ClInclude Include="battlefield.h" />
+    <ClInclude Include="battlefield_pvp.h" />
+    <ClInclude Include="battlescene.h" />
+    <ClInclude Include="battleteam.h" />
+    <ClInclude Include="battleturn.h" />
+    <ClInclude Include="pokemonwrapper.h" />
+    <ClInclude Include="teamInfo.h" />
+    <ClInclude Include="advancedmechanics.h" />
+    <ClInclude Include="battlemechanics.h" />
+    <ClInclude Include="jewelmechanics.h" />
+    <ClInclude Include="pokemonnature.h" />
+    <ClInclude Include="pokemontype.h" />
+    <ClInclude Include="statmultiplier.h" />
+    <ClInclude Include="absorbmove.h" />
+    <ClInclude Include="countermove.h" />
+    <ClInclude Include="damagelistenermove.h" />
+    <ClInclude Include="fixedattackmove.h" />
+    <ClInclude Include="healthbasedmove.h" />
+    <ClInclude Include="hiddenpowermove.h" />
+    <ClInclude Include="highcriticalhitmove.h" />
+    <ClInclude Include="jumpkickmove.h" />
+    <ClInclude Include="massbasedmove.h" />
+    <ClInclude Include="movelist.h" />
+    <ClInclude Include="movelistentry.h" />
+    <ClInclude Include="moveset.h" />
+    <ClInclude Include="movesetdata.h" />
+    <ClInclude Include="multiplehitmove.h" />
+    <ClInclude Include="onehitkillmove.h" />
+    <ClInclude Include="perfectaccuracymove.h" />
+    <ClInclude Include="pokemonmove.h" />
+    <ClInclude Include="prioritymove.h" />
+    <ClInclude Include="protectmove.h" />
+    <ClInclude Include="rampagemove.h" />
+    <ClInclude Include="recoilmove.h" />
+    <ClInclude Include="statchangeswapmove.h" />
+    <ClInclude Include="statusmove.h" />
+    <ClInclude Include="stockpilemove.h" />
+    <ClInclude Include="typecutmove.h" />
+    <ClInclude Include="weathermove.h" />
+    <ClInclude Include="assuranceeffect.h" />
+    <ClInclude Include="attracteffect.h" />
+    <ClInclude Include="awesomeeffect.h" />
+    <ClInclude Include="burneffect.h" />
+    <ClInclude Include="chargeeffect.h" />
+    <ClInclude Include="coeffect.h" />
+    <ClInclude Include="confuseeffect.h" />
+    <ClInclude Include="conversioneffect.h" />
+    <ClInclude Include="countereffect.h" />
+    <ClInclude Include="damagelistenereffect.h" />
+    <ClInclude Include="defensecurleffect.h" />
+    <ClInclude Include="delayeddamageeffect.h" />
+    <ClInclude Include="delayedstatuseffect.h" />
+    <ClInclude Include="delegationeffect.h" />
+    <ClInclude Include="fixedattackeffect.h" />
+    <ClInclude Include="flincheffect.h" />
+    <ClInclude Include="freezeeffect.h" />
+    <ClInclude Include="furycuttereffect.h" />
+    <ClInclude Include="ingraineffect.h" />
+    <ClInclude Include="invulnerablestateeffect.h" />
+    <ClInclude Include="leechseedeffect.h" />
+    <ClInclude Include="lockoneffect.h" />
+    <ClInclude Include="magnetriseeffect.h" />
+    <ClInclude Include="mefirsteffect.h" />
+    <ClInclude Include="minimizeeffect.h" />
+    <ClInclude Include="multiplestatchangeeffect.h" />
+    <ClInclude Include="nightmareeffect.h" />
+    <ClInclude Include="paralysiseffect.h" />
+    <ClInclude Include="percenteffect.h" />
+    <ClInclude Include="perishsongeffect.h" />
+    <ClInclude Include="poisoneffect.h" />
+    <ClInclude Include="protecteffect.h" />
+    <ClInclude Include="protecteffectevent.h" />
+    <ClInclude Include="rechargeeffect.h" />
+    <ClInclude Include="restrainingeffect.h" />
+    <ClInclude Include="rollouteffect.h" />
+    <ClInclude Include="sleepeffect.h" />
+    <ClInclude Include="snatcheffect.h" />
+    <ClInclude Include="statchangeeffect.h" />
+    <ClInclude Include="statcuteffect.h" />
+    <ClInclude Include="statuseffect.h" />
+    <ClInclude Include="stockpileeffect.h" />
+    <ClInclude Include="substituteeffect.h" />
+    <ClInclude Include="suckerpuncheffect.h" />
+    <ClInclude Include="toxiceffect.h" />
+    <ClInclude Include="trappingeffect.h" />
+    <ClInclude Include="yawneffect.h" />
+    <ClInclude Include="compoundeyesability.h" />
+    <ClInclude Include="criticaltypeability.h" />
+    <ClInclude Include="intrinsicability.h" />
+    <ClInclude Include="intrinsicabilitydata.h" />
+    <ClInclude Include="opponenteffectability.h" />
+    <ClInclude Include="trappingability.h" />
+    <ClInclude Include="fieldeffect.h" />
+    <ClInclude Include="gravityeffect.h" />
+    <ClInclude Include="haileffect.h" />
+    <ClInclude Include="misteffect.h" />
+    <ClInclude Include="partyeffect.h" />
+    <ClInclude Include="raineffect.h" />
+    <ClInclude Include="safeguardeffect.h" />
+    <ClInclude Include="sandstormeffect.h" />
+    <ClInclude Include="speedswapeffect.h" />
+    <ClInclude Include="spikeseffect.h" />
+    <ClInclude Include="stealthrockeffect.h" />
+    <ClInclude Include="suneffect.h" />
+    <ClInclude Include="tailwindeffect.h" />
+    <ClInclude Include="toxicspikeseffect.h" />
+    <ClInclude Include="weathereffect.h" />
+    <ClInclude Include="berry.h" />
+    <ClInclude Include="holditem.h" />
+    <ClInclude Include="movesA.h" />
+    <ClInclude Include="movesB.h" />
+    <ClInclude Include="movesC.h" />
+    <ClInclude Include="movesD.h" />
+    <ClInclude Include="movesE.h" />
+    <ClInclude Include="movesF.h" />
+    <ClInclude Include="movesG.h" />
+    <ClInclude Include="movesH.h" />
+    <ClInclude Include="movesI.h" />
+    <ClInclude Include="movesJ.h" />
+    <ClInclude Include="movesK.h" />
+    <ClInclude Include="movesL.h" />
+    <ClInclude Include="movesM.h" />
+    <ClInclude Include="movesN.h" />
+    <ClInclude Include="movesO.h" />
+    <ClInclude Include="movesP.h" />
+    <ClInclude Include="movesQ.h" />
+    <ClInclude Include="movesR.h" />
+    <ClInclude Include="movesS.h" />
+    <ClInclude Include="movesT.h" />
+    <ClInclude Include="movesU.h" />
+    <ClInclude Include="movesV.h" />
+    <ClInclude Include="movesW.h" />
+    <ClInclude Include="movesY.h" />
+    <ClInclude Include="movesZ.h" />
+    <ClInclude Include="addcreaturemessage.h" />
+    <ClInclude Include="creatureturnmessage.h" />
+    <ClInclude Include="netmessage.h" />
+    <ClInclude Include="playerWalkMessage.h" />
+    <ClInclude Include="playerwarpmessage.h" />
+    <ClInclude Include="receiveloginmessage.h" />
+    <ClInclude Include="refreshworldmessage.h" />
+    <ClInclude Include="removecreaturemessage.h" />
+    <ClInclude Include="sendloginmessage.h" />
+    <ClInclude Include="sendplayerdata.h" />
+    <ClInclude Include="sendtilesmessage.h" />
+    <ClInclude Include="battlemessage.h" />
+    <ClInclude Include="ratiorefreshmessage.h" />
+    <ClInclude Include="updatepokemonstatusmessage.h" />
+    <ClInclude Include="sha1.h" />
+    <ClInclude Include="tools.h" />
+    <ClInclude Include="iogame.h" />
+    <ClInclude Include="iomap.h" />
+    <ClInclude Include="iomap_db.h" />
+    <ClInclude Include="iomap_v2.h" />
+    <ClInclude Include="ioplayer.h" />
+    <ClInclude Include="item.h" />
+    <ClInclude Include="items.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

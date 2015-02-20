@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="PUServer">
+</Property><Property Name="Solution File" Value="H:\Programmeren\C++\PUServer\trunk\PUServer.sln">
+</Property><Property Name="User Options File" Value="H:\Programmeren\C++\PUServer\trunk\PUServer.suo">
+</Property><Property Name="Date" Value="donderdag 16 juni 2011">
+</Property><Property Name="Time" Value="15:53">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="PUServer.sln" Description="File successfully backed up as H:\Programmeren\C++\PUServer\trunk\PUServer.sln.old">
+</Event><Event ErrorLevel="0" Project="" Source="PUServer.suo" Description="File successfully backed up as H:\Programmeren\C++\PUServer\trunk\PUServer.suo.old">
+</Event><Event ErrorLevel="0" Project="PUServer" Source="PUServer\PUServer.vcproj" Description="Converting project file 'H:\Programmeren\C++\PUServer\trunk\PUServer\PUServer.vcproj'.">
+</Event><Event ErrorLevel="1" Project="PUServer" Source="PUServer\PUServer.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="1" Project="PUServer" Source="PUServer\PUServer.vcproj" Description="Attribute 'Detect64BitPortabilityProblems' of 'VCCLCompilerTool' is not supported in this version and has been removed during conversion.">
+</Event><Event ErrorLevel="1" Project="PUServer" Source="PUServer\PUServer.vcproj" Description="Attribute 'Detect64BitPortabilityProblems' of 'VCCLCompilerTool' is not supported in this version and has been removed during conversion.">
+</Event><Event ErrorLevel="1" Project="PUServer" Source="PUServer\PUServer.vcproj" Description="Attribute 'Detect64BitPortabilityProblems' of 'VCCLCompilerTool' is not supported in this version and has been removed during conversion.">
+</Event><Event ErrorLevel="1" Project="PUServer" Source="PUServer\PUServer.vcproj" Description="Attribute 'Detect64BitPortabilityProblems' of 'VCCLCompilerTool' is not supported in this version and has been removed during conversion.">
+</Event><Event ErrorLevel="0" Project="PUServer" Source="PUServer\PUServer.vcproj" Description="Done converting to new project file 'H:\Programmeren\C++\PUServer\trunk\PUServer\PUServer.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="PUServer" Source="PUServer\PUServer.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="PUServer_2" Source="PUServer_2\PUServer_2.vcproj" Description="Converting project file 'H:\Programmeren\C++\PUServer\trunk\PUServer_2\PUServer_2.vcproj'.">
+</Event><Event ErrorLevel="1" Project="PUServer_2" Source="PUServer_2\PUServer_2.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="0" Project="PUServer_2" Source="PUServer_2\PUServer_2.vcproj" Description="Done converting to new project file 'H:\Programmeren\C++\PUServer\trunk\PUServer_2\PUServer_2.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="PUServer_2" Source="PUServer_2\PUServer_2.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="PUServer.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="PUServer.sln" Description="Converted">
+</Event></UpgradeLog>

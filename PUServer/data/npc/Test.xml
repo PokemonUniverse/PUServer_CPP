@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<!-- This is an example of a NPC that uses callbacks on scripts -->
+<npc name="Carbob" script="test.lua" attackable="0" walkinterval="5" walkradius="2" speed="110">
+   <look head="140" body="64" legs="121" addons="3"/>.
+
+   <interaction range="3" idletime="0" idleinterval="300" defaultpublic="0">
+	<!--This will include an other interaction, in this way several npc can use the same interaction-->
+	<!--<include file="globalNpc.xml"/>-->
+
+	<interact keywords="hi" focus="1">
+         <!--These are the alternative keywords-->
+         <keywords>hello</keywords>
+      
+         <response text="Hello. How may I help you |NAME|?"/>
+    	</interact>
+
+    	<interact keywords="bye" focus="0">
+         <!--These are the alternative keywords-->
+         <keywords>farewell</keywords>
+
+	   <response text="It was a pleasure to help you."/>
+	</interact>
+
+	<interact keywords="name">
+         <response text="My name is |NPCNAME|."/>
+	</interact>
+
+    	<interact keywords="job">
+         <response text="I am a test NPC, my job is to being a test slave!"/>
+	</interact>
+
+    	<interact keywords="please">
+         <response text="Bend over?">
+	      <action name="topic" value="2"/>
+	   </response>
+	</interact>
+
+	<interact keywords="yes" topic="2">
+	   <response text="I now insert my penis into |NAME|'s ass"/>
+	</interact>
+
+        <interact keywords="|*|">
+           <response text="I have no idea what your talking about."/>
+        </interact>
+
+        <interact event="onIdle">
+          <response text="Beatiful day is it not |NAME|?" public="1">
+            <action name="idle" value="1"/>
+          </response>
+ 	</interact>
+
+	<interact event="onPlayerLeave" focus="0">
+	  <response text="It was a pleasure to help you |NAME|."/>
+	</interact>
+
+   </interaction>
+</npc>

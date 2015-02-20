@@ -1,0 +1,993 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\database">
+      <UniqueIdentifier>{1fb555c7-f37b-4fb5-a317-0d4acabc1354}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\battle">
+      <UniqueIdentifier>{a881f4d2-19c4-4109-97bd-cae5cdc050c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\battle\mechanics">
+      <UniqueIdentifier>{aa2daa0e-7536-4a43-89c5-5fcc82d1fd0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\battle\mechanics\mechanics.moves">
+      <UniqueIdentifier>{969e3a36-b536-4776-8efa-127cbea14749}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\battle\mechanics\mechanics.statuses">
+      <UniqueIdentifier>{fcfc8792-c376-4066-9d7b-4d02ab97d9b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\battle\mechanics\mechanics.statuses\mechanics.statuses.abilities">
+      <UniqueIdentifier>{d44d4349-6c49-43eb-82b3-4ab1c57bec70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\battle\mechanics\mechanics.statuses\mechanics.statuses.field">
+      <UniqueIdentifier>{4ba9206f-7624-434e-bf10-2e8ab9750e66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\battle\mechanics\mechanics.statuses\mechanics.statuses.items">
+      <UniqueIdentifier>{4065a1be-82a9-4cad-a464-00d22f24e879}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\io">
+      <UniqueIdentifier>{a98b7ef8-500c-4c56-b139-46a9d4c093d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\items">
+      <UniqueIdentifier>{d90b354a-8f8e-4370-93f5-0d5db4bfc826}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\misc">
+      <UniqueIdentifier>{b15ebf86-d19a-4b50-81c7-783ce3019d9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files\database">
+      <UniqueIdentifier>{25ec2dc9-4c6d-41e9-a0f0-5b1167a9eef7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\battle">
+      <UniqueIdentifier>{1d9e4830-542d-4715-ac51-aa0e0bf91c14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\battle\mechanics">
+      <UniqueIdentifier>{4165cf2a-5007-4ad9-8fcd-46d24469f378}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\battle\mechanics\mechanics.moves">
+      <UniqueIdentifier>{ef3639cd-2cd3-47ce-ac65-5063fabadd92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\battle\mechanics\mechanics.statuses">
+      <UniqueIdentifier>{ae0d9a33-b8f0-4334-a833-d3d4935da362}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\battle\mechanics\mechanics.statuses\mechanics.statuses.abilities">
+      <UniqueIdentifier>{07914858-1e89-49b0-ba08-b9fa6fa99fd6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\battle\mechanics\mechanics.statuses\mechanics.statuses.field">
+      <UniqueIdentifier>{a9c423ca-9d6a-477c-a07d-3e293f785d13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\battle\mechanics\mechanics.statuses\mechanics.statuses.items">
+      <UniqueIdentifier>{790f3829-98d2-4ab4-b762-21c55829afb8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\battle\moves">
+      <UniqueIdentifier>{0ad04a74-1804-48fe-b03a-6b86df6951fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\messages">
+      <UniqueIdentifier>{797ff76d-7b3f-4a40-880a-4459a78a31b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\messages\battle">
+      <UniqueIdentifier>{b7f50f3b-213b-4424-8e3c-a984c3dc4690}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\misc">
+      <UniqueIdentifier>{17bdfc62-6c9b-4be4-a28c-996f89c43fd8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\io">
+      <UniqueIdentifier>{96e4762f-d058-4be9-90fc-e5b7d8efebb3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\items">
+      <UniqueIdentifier>{eb29beef-2f5a-45bf-a3b8-d68dd24ed2e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="configmanager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="connection.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="creature.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="map.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="npc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="packet.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="player.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pokemon.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pokemonparty.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pokemonspecies.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pokemonspeciesdata.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="quest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="server.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="towns.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="warp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="database.cpp">
+      <Filter>Source Files\database</Filter>
+    </ClCompile>
+    <ClCompile Include="databasemysql.cpp">
+      <Filter>Source Files\database</Filter>
+    </ClCompile>
+    <ClCompile Include="battlefield.cpp">
+      <Filter>Source Files\battle</Filter>
+    </ClCompile>
+    <ClCompile Include="battlefield_pvp.cpp">
+      <Filter>Source Files\battle</Filter>
+    </ClCompile>
+    <ClCompile Include="battleteam.cpp">
+      <Filter>Source Files\battle</Filter>
+    </ClCompile>
+    <ClCompile Include="battleturn.cpp">
+      <Filter>Source Files\battle</Filter>
+    </ClCompile>
+    <ClCompile Include="advancedmechanics.cpp">
+      <Filter>Source Files\battle\mechanics</Filter>
+    </ClCompile>
+    <ClCompile Include="jewelmechanics.cpp">
+      <Filter>Source Files\battle\mechanics</Filter>
+    </ClCompile>
+    <ClCompile Include="pokemonnature.cpp">
+      <Filter>Source Files\battle\mechanics</Filter>
+    </ClCompile>
+    <ClCompile Include="pokemontype.cpp">
+      <Filter>Source Files\battle\mechanics</Filter>
+    </ClCompile>
+    <ClCompile Include="statmultiplier.cpp">
+      <Filter>Source Files\battle\mechanics</Filter>
+    </ClCompile>
+    <ClCompile Include="absorbmove.cpp">
+      <Filter>Source Files\battle\mechanics\mechanics.moves</Filter>
+    </ClCompile>
+    <ClCompile Include="countermove.cpp">
+      <Filter>Source Files\battle\mechanics\mechanics.moves</Filter>
+    </ClCompile>
+    <ClCompile Include="damagelistenermove.cpp">
+      <Filter>Source Files\battle\mechanics\mechanics.moves</Filter>
+    </ClCompile>
+    <ClCompile Include="healthbasedmove.cpp">
+      <Filter>Source Files\battle\mechanics\mechanics.moves</Filter>
+    </ClCompile>
+    <ClCompile Include="hiddenpowermove.cpp">
+      <Filter>Source Files\battle\mechanics\mechanics.moves</Filter>
+    </ClCompile>
+    <ClCompile Include="jumpkickmove.cpp">
+      <Filter>Source Files\battle\mechanics\mechanics.moves</Filter>
+    </ClCompile>
+    <ClCompile Include="movelist.cpp">
+      <Filter>Source Files\battle\mechanics\mechanics.moves</Filter>
+    </ClCompile>
+    <ClCompile Include="movelistentry.cpp">
+      <Filter>Source Files\battle\mechanics\mechanics.moves</Filter>
+    </ClCompile>
+    <ClCompile Include="multiplehitmove.cpp">
+      <Filter>Source Files\battle\mechanics\mechanics.moves</Filter>
+    </ClCompile>
+    <ClCompile Include="onehitkillmove.cpp">
+      <Filter>Source Files\battle\mechanics\mechanics.moves</Filter>
+    </ClCompile>
+    <ClCompile Include="pokemonmove.cpp">
+      <Filter>Source Files\battle\mechanics\mechanics.moves</Filter>
+    </ClCompile>
+    <ClCompile Include="protectmove.cpp">
+      <Filter>Source Files\battle\mechanics\mechanics.moves</Filter>
+    </ClCompile>
+    <ClCompile Include="rampagemove.cpp">
+      <Filter>Source Files\battle\mechanics\mechanics.moves</Filter>
+    </ClCompile>
+    <ClCompile Include="recoilmove.cpp">
+      <Filter>Source Files\battle\mechanics\mechanics.moves</Filter>
+    </ClCompile>
+    <ClCompile Include="statchangeswapmove.cpp">
+      <Filter>Source Files\battle\mechanics\mechanics.moves</Filter>
+    </ClCompile>
+    <ClCompile Include="statusmove.cpp">
+      <Filter>Source Files\battle\mechanics\mechanics.moves</Filter>
+    </ClCompile>
+    <ClCompile Include="stockpilemove.cpp">
+      <Filter>Source Files\battle\mechanics\mechanics.moves</Filter>
+    </ClCompile>
+    <ClCompile Include="typecutmove.cpp">
+      <Filter>Source Files\battle\mechanics\mechanics.moves</Filter>
+    </ClCompile>
+    <ClCompile Include="weathermove.cpp">
+      <Filter>Source Files\battle\mechanics\mechanics.moves</Filter>
+    </ClCompile>
+    <ClCompile Include="attracteffect.cpp">
+      <Filter>Source Files\battle\mechanics\mechanics.statuses</Filter>
+    </ClCompile>
+    <ClCompile Include="awesomeeffect.cpp">
+      <Filter>Source Files\battle\mechanics\mechanics.statuses</Filter>
+    </ClCompile>
+    <ClCompile Include="burneffect.cpp">
+      <Filter>Source Files\battle\mechanics\mechanics.statuses</Filter>
+    </ClCompile>
+    <ClCompile Include="chargeeffect.cpp">
+      <Filter>Source Files\battle\mechanics\mechanics.statuses</Filter>
+    </ClCompile>
+    <ClCompile Include="confuseeffect.cpp">
+      <Filter>Source Files\battle\mechanics\mechanics.statuses</Filter>
+    </ClCompile>
+    <ClCompile Include="conversioneffect.cpp">
+      <Filter>Source Files\battle\mechanics\mechanics.statuses</Filter>
+    </ClCompile>
+    <ClCompile Include="countereffect.cpp">
+      <Filter>Source Files\battle\mechanics\mechanics.statuses</Filter>
+    </ClCompile>
+    <ClCompile Include="damagelistenereffect.cpp">
+      <Filter>Source Files\battle\mechanics\mechanics.statuses</Filter>
+    </ClCompile>
+    <ClCompile Include="defensecurleffect.cpp">
+      <Filter>Source Files\battle\mechanics\mechanics.statuses</Filter>
+    </ClCompile>
+    <ClCompile Include="delayeddamageeffect.cpp">
+      <Filter>Source Files\battle\mechanics\mechanics.statuses</Filter>
+    </ClCompile>
+    <ClCompile Include="delayedstatuseffect.cpp">
+      <Filter>Source Files\battle\mechanics\mechanics.statuses</Filter>
+    </ClCompile>
+    <ClCompile Include="delegationeffect.cpp">
+      <Filter>Source Files\battle\mechanics\mechanics.statuses</Filter>
+    </ClCompile>
+    <ClCompile Include="fixedattackeffect.cpp">
+      <Filter>Source Files\battle\mechanics\mechanics.statuses</Filter>
+    </ClCompile>
+    <ClCompile Include="flincheffect.cpp">
+      <Filter>Source Files\battle\mechanics\mechanics.statuses</Filter>
+    </ClCompile>
+    <ClCompile Include="freezeeffect.cpp">
+      <Filter>Source Files\battle\mechanics\mechanics.statuses</Filter>
+    </ClCompile>
+    <ClCompile Include="ingraineffect.cpp">
+      <Filter>Source Files\battle\mechanics\mechanics.statuses</Filter>
+    </ClCompile>
+    <ClCompile Include="invulnerablestateeffect.cpp">
+      <Filter>Source Files\battle\mechanics\mechanics.statuses</Filter>
+    </ClCompile>
+    <ClCompile Include="leechseedeffect.cpp">
+      <Filter>Source Files\battle\mechanics\mechanics.statuses</Filter>
+    </ClCompile>
+    <ClCompile Include="magnetriseeffect.cpp">
+      <Filter>Source Files\battle\mechanics\mechanics.statuses</Filter>
+    </ClCompile>
+    <ClCompile Include="minimizeeffect.cpp">
+      <Filter>Source Files\battle\mechanics\mechanics.statuses</Filter>
+    </ClCompile>
+    <ClCompile Include="multiplestatchangeeffect.cpp">
+      <Filter>Source Files\battle\mechanics\mechanics.statuses</Filter>
+    </ClCompile>
+    <ClCompile Include="nightmareeffect.cpp">
+      <Filter>Source Files\battle\mechanics\mechanics.statuses</Filter>
+    </ClCompile>
+    <ClCompile Include="paralysiseffect.cpp">
+      <Filter>Source Files\battle\mechanics\mechanics.statuses</Filter>
+    </ClCompile>
+    <ClCompile Include="percenteffect.cpp">
+      <Filter>Source Files\battle\mechanics\mechanics.statuses</Filter>
+    </ClCompile>
+    <ClCompile Include="perishsongeffect.cpp">
+      <Filter>Source Files\battle\mechanics\mechanics.statuses</Filter>
+    </ClCompile>
+    <ClCompile Include="poisoneffect.cpp">
+      <Filter>Source Files\battle\mechanics\mechanics.statuses</Filter>
+    </ClCompile>
+    <ClCompile Include="restrainingeffect.cpp">
+      <Filter>Source Files\battle\mechanics\mechanics.statuses</Filter>
+    </ClCompile>
+    <ClCompile Include="sleepeffect.cpp">
+      <Filter>Source Files\battle\mechanics\mechanics.statuses</Filter>
+    </ClCompile>
+    <ClCompile Include="statchangeeffect.cpp">
+      <Filter>Source Files\battle\mechanics\mechanics.statuses</Filter>
+    </ClCompile>
+    <ClCompile Include="statcuteffect.cpp">
+      <Filter>Source Files\battle\mechanics\mechanics.statuses</Filter>
+    </ClCompile>
+    <ClCompile Include="stockpileeffect.cpp">
+      <Filter>Source Files\battle\mechanics\mechanics.statuses</Filter>
+    </ClCompile>
+    <ClCompile Include="toxiceffect.cpp">
+      <Filter>Source Files\battle\mechanics\mechanics.statuses</Filter>
+    </ClCompile>
+    <ClCompile Include="trappingeffect.cpp">
+      <Filter>Source Files\battle\mechanics\mechanics.statuses</Filter>
+    </ClCompile>
+    <ClCompile Include="compoundeyesability.cpp">
+      <Filter>Source Files\battle\mechanics\mechanics.statuses\mechanics.statuses.abilities</Filter>
+    </ClCompile>
+    <ClCompile Include="criticaltypeability.cpp">
+      <Filter>Source Files\battle\mechanics\mechanics.statuses\mechanics.statuses.abilities</Filter>
+    </ClCompile>
+    <ClCompile Include="intrinsicability.cpp">
+      <Filter>Source Files\battle\mechanics\mechanics.statuses\mechanics.statuses.abilities</Filter>
+    </ClCompile>
+    <ClCompile Include="opponenteffectability.cpp">
+      <Filter>Source Files\battle\mechanics\mechanics.statuses\mechanics.statuses.abilities</Filter>
+    </ClCompile>
+    <ClCompile Include="trappingability.cpp">
+      <Filter>Source Files\battle\mechanics\mechanics.statuses\mechanics.statuses.abilities</Filter>
+    </ClCompile>
+    <ClCompile Include="fieldeffect.cpp">
+      <Filter>Source Files\battle\mechanics\mechanics.statuses\mechanics.statuses.field</Filter>
+    </ClCompile>
+    <ClCompile Include="gravityeffect.cpp">
+      <Filter>Source Files\battle\mechanics\mechanics.statuses\mechanics.statuses.field</Filter>
+    </ClCompile>
+    <ClCompile Include="haileffect.cpp">
+      <Filter>Source Files\battle\mechanics\mechanics.statuses\mechanics.statuses.field</Filter>
+    </ClCompile>
+    <ClCompile Include="partyeffect.cpp">
+      <Filter>Source Files\battle\mechanics\mechanics.statuses\mechanics.statuses.field</Filter>
+    </ClCompile>
+    <ClCompile Include="raineffect.cpp">
+      <Filter>Source Files\battle\mechanics\mechanics.statuses\mechanics.statuses.field</Filter>
+    </ClCompile>
+    <ClCompile Include="sandstormeffect.cpp">
+      <Filter>Source Files\battle\mechanics\mechanics.statuses\mechanics.statuses.field</Filter>
+    </ClCompile>
+    <ClCompile Include="speedswapeffect.cpp">
+      <Filter>Source Files\battle\mechanics\mechanics.statuses\mechanics.statuses.field</Filter>
+    </ClCompile>
+    <ClCompile Include="stealthrockeffect.cpp">
+      <Filter>Source Files\battle\mechanics\mechanics.statuses\mechanics.statuses.field</Filter>
+    </ClCompile>
+    <ClCompile Include="suneffect.cpp">
+      <Filter>Source Files\battle\mechanics\mechanics.statuses\mechanics.statuses.field</Filter>
+    </ClCompile>
+    <ClCompile Include="tailwindeffect.cpp">
+      <Filter>Source Files\battle\mechanics\mechanics.statuses\mechanics.statuses.field</Filter>
+    </ClCompile>
+    <ClCompile Include="toxicspikeseffect.cpp">
+      <Filter>Source Files\battle\mechanics\mechanics.statuses\mechanics.statuses.field</Filter>
+    </ClCompile>
+    <ClCompile Include="weathereffect.cpp">
+      <Filter>Source Files\battle\mechanics\mechanics.statuses\mechanics.statuses.field</Filter>
+    </ClCompile>
+    <ClCompile Include="holditem.cpp">
+      <Filter>Source Files\battle\mechanics\mechanics.statuses\mechanics.statuses.items</Filter>
+    </ClCompile>
+    <ClCompile Include="iogame.cpp">
+      <Filter>Source Files\io</Filter>
+    </ClCompile>
+    <ClCompile Include="iomap_db.cpp">
+      <Filter>Source Files\io</Filter>
+    </ClCompile>
+    <ClCompile Include="iomap_v2.cpp">
+      <Filter>Source Files\io</Filter>
+    </ClCompile>
+    <ClCompile Include="ioplayer.cpp">
+      <Filter>Source Files\io</Filter>
+    </ClCompile>
+    <ClCompile Include="items.cpp">
+      <Filter>Source Files\items</Filter>
+    </ClCompile>
+    <ClCompile Include="sha1.cpp">
+      <Filter>Source Files\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="tools.cpp">
+      <Filter>Source Files\misc</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="condition.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="configmanager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="connection.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="container.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="creature.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cylinder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="definitions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="depot.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="enums.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="game.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gametext.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="house.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="logger.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="map.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="npc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="outfit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="player.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pokemon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pokemonparty.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pokemonspecies.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pokemonspeciesdata.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="position.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quest.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="server.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="templates.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="thing.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tileevent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tilehouse.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="towns.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="warp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="database.h">
+      <Filter>Header Files\database</Filter>
+    </ClInclude>
+    <ClInclude Include="databasemysql.h">
+      <Filter>Header Files\database</Filter>
+    </ClInclude>
+    <ClInclude Include="battle.h">
+      <Filter>Header Files\battle</Filter>
+    </ClInclude>
+    <ClInclude Include="battleevents.h">
+      <Filter>Header Files\battle</Filter>
+    </ClInclude>
+    <ClInclude Include="battlefield.h">
+      <Filter>Header Files\battle</Filter>
+    </ClInclude>
+    <ClInclude Include="battlefield_pvp.h">
+      <Filter>Header Files\battle</Filter>
+    </ClInclude>
+    <ClInclude Include="battlescene.h">
+      <Filter>Header Files\battle</Filter>
+    </ClInclude>
+    <ClInclude Include="battleteam.h">
+      <Filter>Header Files\battle</Filter>
+    </ClInclude>
+    <ClInclude Include="battleturn.h">
+      <Filter>Header Files\battle</Filter>
+    </ClInclude>
+    <ClInclude Include="pokemonwrapper.h">
+      <Filter>Header Files\battle</Filter>
+    </ClInclude>
+    <ClInclude Include="teamInfo.h">
+      <Filter>Header Files\battle</Filter>
+    </ClInclude>
+    <ClInclude Include="advancedmechanics.h">
+      <Filter>Header Files\battle\mechanics</Filter>
+    </ClInclude>
+    <ClInclude Include="battlemechanics.h">
+      <Filter>Header Files\battle\mechanics</Filter>
+    </ClInclude>
+    <ClInclude Include="jewelmechanics.h">
+      <Filter>Header Files\battle\mechanics</Filter>
+    </ClInclude>
+    <ClInclude Include="pokemonnature.h">
+      <Filter>Header Files\battle\mechanics</Filter>
+    </ClInclude>
+    <ClInclude Include="pokemontype.h">
+      <Filter>Header Files\battle\mechanics</Filter>
+    </ClInclude>
+    <ClInclude Include="statmultiplier.h">
+      <Filter>Header Files\battle\mechanics</Filter>
+    </ClInclude>
+    <ClInclude Include="absorbmove.h">
+      <Filter>Header Files\battle\mechanics\mechanics.moves</Filter>
+    </ClInclude>
+    <ClInclude Include="countermove.h">
+      <Filter>Header Files\battle\mechanics\mechanics.moves</Filter>
+    </ClInclude>
+    <ClInclude Include="damagelistenermove.h">
+      <Filter>Header Files\battle\mechanics\mechanics.moves</Filter>
+    </ClInclude>
+    <ClInclude Include="fixedattackmove.h">
+      <Filter>Header Files\battle\mechanics\mechanics.moves</Filter>
+    </ClInclude>
+    <ClInclude Include="healthbasedmove.h">
+      <Filter>Header Files\battle\mechanics\mechanics.moves</Filter>
+    </ClInclude>
+    <ClInclude Include="hiddenpowermove.h">
+      <Filter>Header Files\battle\mechanics\mechanics.moves</Filter>
+    </ClInclude>
+    <ClInclude Include="highcriticalhitmove.h">
+      <Filter>Header Files\battle\mechanics\mechanics.moves</Filter>
+    </ClInclude>
+    <ClInclude Include="jumpkickmove.h">
+      <Filter>Header Files\battle\mechanics\mechanics.moves</Filter>
+    </ClInclude>
+    <ClInclude Include="massbasedmove.h">
+      <Filter>Header Files\battle\mechanics\mechanics.moves</Filter>
+    </ClInclude>
+    <ClInclude Include="movelist.h">
+      <Filter>Header Files\battle\mechanics\mechanics.moves</Filter>
+    </ClInclude>
+    <ClInclude Include="movelistentry.h">
+      <Filter>Header Files\battle\mechanics\mechanics.moves</Filter>
+    </ClInclude>
+    <ClInclude Include="moveset.h">
+      <Filter>Header Files\battle\mechanics\mechanics.moves</Filter>
+    </ClInclude>
+    <ClInclude Include="movesetdata.h">
+      <Filter>Header Files\battle\mechanics\mechanics.moves</Filter>
+    </ClInclude>
+    <ClInclude Include="multiplehitmove.h">
+      <Filter>Header Files\battle\mechanics\mechanics.moves</Filter>
+    </ClInclude>
+    <ClInclude Include="onehitkillmove.h">
+      <Filter>Header Files\battle\mechanics\mechanics.moves</Filter>
+    </ClInclude>
+    <ClInclude Include="perfectaccuracymove.h">
+      <Filter>Header Files\battle\mechanics\mechanics.moves</Filter>
+    </ClInclude>
+    <ClInclude Include="pokemonmove.h">
+      <Filter>Header Files\battle\mechanics\mechanics.moves</Filter>
+    </ClInclude>
+    <ClInclude Include="prioritymove.h">
+      <Filter>Header Files\battle\mechanics\mechanics.moves</Filter>
+    </ClInclude>
+    <ClInclude Include="protectmove.h">
+      <Filter>Header Files\battle\mechanics\mechanics.moves</Filter>
+    </ClInclude>
+    <ClInclude Include="rampagemove.h">
+      <Filter>Header Files\battle\mechanics\mechanics.moves</Filter>
+    </ClInclude>
+    <ClInclude Include="recoilmove.h">
+      <Filter>Header Files\battle\mechanics\mechanics.moves</Filter>
+    </ClInclude>
+    <ClInclude Include="statchangeswapmove.h">
+      <Filter>Header Files\battle\mechanics\mechanics.moves</Filter>
+    </ClInclude>
+    <ClInclude Include="statusmove.h">
+      <Filter>Header Files\battle\mechanics\mechanics.moves</Filter>
+    </ClInclude>
+    <ClInclude Include="stockpilemove.h">
+      <Filter>Header Files\battle\mechanics\mechanics.moves</Filter>
+    </ClInclude>
+    <ClInclude Include="typecutmove.h">
+      <Filter>Header Files\battle\mechanics\mechanics.moves</Filter>
+    </ClInclude>
+    <ClInclude Include="weathermove.h">
+      <Filter>Header Files\battle\mechanics\mechanics.moves</Filter>
+    </ClInclude>
+    <ClInclude Include="assuranceeffect.h">
+      <Filter>Header Files\battle\mechanics\mechanics.statuses</Filter>
+    </ClInclude>
+    <ClInclude Include="attracteffect.h">
+      <Filter>Header Files\battle\mechanics\mechanics.statuses</Filter>
+    </ClInclude>
+    <ClInclude Include="awesomeeffect.h">
+      <Filter>Header Files\battle\mechanics\mechanics.statuses</Filter>
+    </ClInclude>
+    <ClInclude Include="burneffect.h">
+      <Filter>Header Files\battle\mechanics\mechanics.statuses</Filter>
+    </ClInclude>
+    <ClInclude Include="chargeeffect.h">
+      <Filter>Header Files\battle\mechanics\mechanics.statuses</Filter>
+    </ClInclude>
+    <ClInclude Include="coeffect.h">
+      <Filter>Header Files\battle\mechanics\mechanics.statuses</Filter>
+    </ClInclude>
+    <ClInclude Include="confuseeffect.h">
+      <Filter>Header Files\battle\mechanics\mechanics.statuses</Filter>
+    </ClInclude>
+    <ClInclude Include="conversioneffect.h">
+      <Filter>Header Files\battle\mechanics\mechanics.statuses</Filter>
+    </ClInclude>
+    <ClInclude Include="countereffect.h">
+      <Filter>Header Files\battle\mechanics\mechanics.statuses</Filter>
+    </ClInclude>
+    <ClInclude Include="damagelistenereffect.h">
+      <Filter>Header Files\battle\mechanics\mechanics.statuses</Filter>
+    </ClInclude>
+    <ClInclude Include="defensecurleffect.h">
+      <Filter>Header Files\battle\mechanics\mechanics.statuses</Filter>
+    </ClInclude>
+    <ClInclude Include="delayeddamageeffect.h">
+      <Filter>Header Files\battle\mechanics\mechanics.statuses</Filter>
+    </ClInclude>
+    <ClInclude Include="delayedstatuseffect.h">
+      <Filter>Header Files\battle\mechanics\mechanics.statuses</Filter>
+    </ClInclude>
+    <ClInclude Include="delegationeffect.h">
+      <Filter>Header Files\battle\mechanics\mechanics.statuses</Filter>
+    </ClInclude>
+    <ClInclude Include="fixedattackeffect.h">
+      <Filter>Header Files\battle\mechanics\mechanics.statuses</Filter>
+    </ClInclude>
+    <ClInclude Include="flincheffect.h">
+      <Filter>Header Files\battle\mechanics\mechanics.statuses</Filter>
+    </ClInclude>
+    <ClInclude Include="freezeeffect.h">
+      <Filter>Header Files\battle\mechanics\mechanics.statuses</Filter>
+    </ClInclude>
+    <ClInclude Include="furycuttereffect.h">
+      <Filter>Header Files\battle\mechanics\mechanics.statuses</Filter>
+    </ClInclude>
+    <ClInclude Include="ingraineffect.h">
+      <Filter>Header Files\battle\mechanics\mechanics.statuses</Filter>
+    </ClInclude>
+    <ClInclude Include="invulnerablestateeffect.h">
+      <Filter>Header Files\battle\mechanics\mechanics.statuses</Filter>
+    </ClInclude>
+    <ClInclude Include="leechseedeffect.h">
+      <Filter>Header Files\battle\mechanics\mechanics.statuses</Filter>
+    </ClInclude>
+    <ClInclude Include="lockoneffect.h">
+      <Filter>Header Files\battle\mechanics\mechanics.statuses</Filter>
+    </ClInclude>
+    <ClInclude Include="magnetriseeffect.h">
+      <Filter>Header Files\battle\mechanics\mechanics.statuses</Filter>
+    </ClInclude>
+    <ClInclude Include="mefirsteffect.h">
+      <Filter>Header Files\battle\mechanics\mechanics.statuses</Filter>
+    </ClInclude>
+    <ClInclude Include="minimizeeffect.h">
+      <Filter>Header Files\battle\mechanics\mechanics.statuses</Filter>
+    </ClInclude>
+    <ClInclude Include="multiplestatchangeeffect.h">
+      <Filter>Header Files\battle\mechanics\mechanics.statuses</Filter>
+    </ClInclude>
+    <ClInclude Include="nightmareeffect.h">
+      <Filter>Header Files\battle\mechanics\mechanics.statuses</Filter>
+    </ClInclude>
+    <ClInclude Include="paralysiseffect.h">
+      <Filter>Header Files\battle\mechanics\mechanics.statuses</Filter>
+    </ClInclude>
+    <ClInclude Include="percenteffect.h">
+      <Filter>Header Files\battle\mechanics\mechanics.statuses</Filter>
+    </ClInclude>
+    <ClInclude Include="perishsongeffect.h">
+      <Filter>Header Files\battle\mechanics\mechanics.statuses</Filter>
+    </ClInclude>
+    <ClInclude Include="poisoneffect.h">
+      <Filter>Header Files\battle\mechanics\mechanics.statuses</Filter>
+    </ClInclude>
+    <ClInclude Include="protecteffect.h">
+      <Filter>Header Files\battle\mechanics\mechanics.statuses</Filter>
+    </ClInclude>
+    <ClInclude Include="protecteffectevent.h">
+      <Filter>Header Files\battle\mechanics\mechanics.statuses</Filter>
+    </ClInclude>
+    <ClInclude Include="rechargeeffect.h">
+      <Filter>Header Files\battle\mechanics\mechanics.statuses</Filter>
+    </ClInclude>
+    <ClInclude Include="restrainingeffect.h">
+      <Filter>Header Files\battle\mechanics\mechanics.statuses</Filter>
+    </ClInclude>
+    <ClInclude Include="rollouteffect.h">
+      <Filter>Header Files\battle\mechanics\mechanics.statuses</Filter>
+    </ClInclude>
+    <ClInclude Include="sleepeffect.h">
+      <Filter>Header Files\battle\mechanics\mechanics.statuses</Filter>
+    </ClInclude>
+    <ClInclude Include="snatcheffect.h">
+      <Filter>Header Files\battle\mechanics\mechanics.statuses</Filter>
+    </ClInclude>
+    <ClInclude Include="statchangeeffect.h">
+      <Filter>Header Files\battle\mechanics\mechanics.statuses</Filter>
+    </ClInclude>
+    <ClInclude Include="statcuteffect.h">
+      <Filter>Header Files\battle\mechanics\mechanics.statuses</Filter>
+    </ClInclude>
+    <ClInclude Include="statuseffect.h">
+      <Filter>Header Files\battle\mechanics\mechanics.statuses</Filter>
+    </ClInclude>
+    <ClInclude Include="stockpileeffect.h">
+      <Filter>Header Files\battle\mechanics\mechanics.statuses</Filter>
+    </ClInclude>
+    <ClInclude Include="substituteeffect.h">
+      <Filter>Header Files\battle\mechanics\mechanics.statuses</Filter>
+    </ClInclude>
+    <ClInclude Include="suckerpuncheffect.h">
+      <Filter>Header Files\battle\mechanics\mechanics.statuses</Filter>
+    </ClInclude>
+    <ClInclude Include="toxiceffect.h">
+      <Filter>Header Files\battle\mechanics\mechanics.statuses</Filter>
+    </ClInclude>
+    <ClInclude Include="trappingeffect.h">
+      <Filter>Header Files\battle\mechanics\mechanics.statuses</Filter>
+    </ClInclude>
+    <ClInclude Include="yawneffect.h">
+      <Filter>Header Files\battle\mechanics\mechanics.statuses</Filter>
+    </ClInclude>
+    <ClInclude Include="compoundeyesability.h">
+      <Filter>Header Files\battle\mechanics\mechanics.statuses\mechanics.statuses.abilities</Filter>
+    </ClInclude>
+    <ClInclude Include="criticaltypeability.h">
+      <Filter>Header Files\battle\mechanics\mechanics.statuses\mechanics.statuses.abilities</Filter>
+    </ClInclude>
+    <ClInclude Include="intrinsicability.h">
+      <Filter>Header Files\battle\mechanics\mechanics.statuses\mechanics.statuses.abilities</Filter>
+    </ClInclude>
+    <ClInclude Include="intrinsicabilitydata.h">
+      <Filter>Header Files\battle\mechanics\mechanics.statuses\mechanics.statuses.abilities</Filter>
+    </ClInclude>
+    <ClInclude Include="opponenteffectability.h">
+      <Filter>Header Files\battle\mechanics\mechanics.statuses\mechanics.statuses.abilities</Filter>
+    </ClInclude>
+    <ClInclude Include="trappingability.h">
+      <Filter>Header Files\battle\mechanics\mechanics.statuses\mechanics.statuses.abilities</Filter>
+    </ClInclude>
+    <ClInclude Include="fieldeffect.h">
+      <Filter>Header Files\battle\mechanics\mechanics.statuses\mechanics.statuses.field</Filter>
+    </ClInclude>
+    <ClInclude Include="gravityeffect.h">
+      <Filter>Header Files\battle\mechanics\mechanics.statuses\mechanics.statuses.field</Filter>
+    </ClInclude>
+    <ClInclude Include="haileffect.h">
+      <Filter>Header Files\battle\mechanics\mechanics.statuses\mechanics.statuses.field</Filter>
+    </ClInclude>
+    <ClInclude Include="misteffect.h">
+      <Filter>Header Files\battle\mechanics\mechanics.statuses\mechanics.statuses.field</Filter>
+    </ClInclude>
+    <ClInclude Include="partyeffect.h">
+      <Filter>Header Files\battle\mechanics\mechanics.statuses\mechanics.statuses.field</Filter>
+    </ClInclude>
+    <ClInclude Include="raineffect.h">
+      <Filter>Header Files\battle\mechanics\mechanics.statuses\mechanics.statuses.field</Filter>
+    </ClInclude>
+    <ClInclude Include="safeguardeffect.h">
+      <Filter>Header Files\battle\mechanics\mechanics.statuses\mechanics.statuses.field</Filter>
+    </ClInclude>
+    <ClInclude Include="sandstormeffect.h">
+      <Filter>Header Files\battle\mechanics\mechanics.statuses\mechanics.statuses.field</Filter>
+    </ClInclude>
+    <ClInclude Include="speedswapeffect.h">
+      <Filter>Header Files\battle\mechanics\mechanics.statuses\mechanics.statuses.field</Filter>
+    </ClInclude>
+    <ClInclude Include="spikeseffect.h">
+      <Filter>Header Files\battle\mechanics\mechanics.statuses\mechanics.statuses.field</Filter>
+    </ClInclude>
+    <ClInclude Include="stealthrockeffect.h">
+      <Filter>Header Files\battle\mechanics\mechanics.statuses\mechanics.statuses.field</Filter>
+    </ClInclude>
+    <ClInclude Include="suneffect.h">
+      <Filter>Header Files\battle\mechanics\mechanics.statuses\mechanics.statuses.field</Filter>
+    </ClInclude>
+    <ClInclude Include="tailwindeffect.h">
+      <Filter>Header Files\battle\mechanics\mechanics.statuses\mechanics.statuses.field</Filter>
+    </ClInclude>
+    <ClInclude Include="toxicspikeseffect.h">
+      <Filter>Header Files\battle\mechanics\mechanics.statuses\mechanics.statuses.field</Filter>
+    </ClInclude>
+    <ClInclude Include="weathereffect.h">
+      <Filter>Header Files\battle\mechanics\mechanics.statuses\mechanics.statuses.field</Filter>
+    </ClInclude>
+    <ClInclude Include="berry.h">
+      <Filter>Header Files\battle\mechanics\mechanics.statuses\mechanics.statuses.items</Filter>
+    </ClInclude>
+    <ClInclude Include="holditem.h">
+      <Filter>Header Files\battle\mechanics\mechanics.statuses\mechanics.statuses.items</Filter>
+    </ClInclude>
+    <ClInclude Include="movesA.h">
+      <Filter>Header Files\battle\moves</Filter>
+    </ClInclude>
+    <ClInclude Include="movesB.h">
+      <Filter>Header Files\battle\moves</Filter>
+    </ClInclude>
+    <ClInclude Include="movesC.h">
+      <Filter>Header Files\battle\moves</Filter>
+    </ClInclude>
+    <ClInclude Include="movesD.h">
+      <Filter>Header Files\battle\moves</Filter>
+    </ClInclude>
+    <ClInclude Include="movesE.h">
+      <Filter>Header Files\battle\moves</Filter>
+    </ClInclude>
+    <ClInclude Include="movesF.h">
+      <Filter>Header Files\battle\moves</Filter>
+    </ClInclude>
+    <ClInclude Include="movesG.h">
+      <Filter>Header Files\battle\moves</Filter>
+    </ClInclude>
+    <ClInclude Include="movesH.h">
+      <Filter>Header Files\battle\moves</Filter>
+    </ClInclude>
+    <ClInclude Include="movesI.h">
+      <Filter>Header Files\battle\moves</Filter>
+    </ClInclude>
+    <ClInclude Include="movesJ.h">
+      <Filter>Header Files\battle\moves</Filter>
+    </ClInclude>
+    <ClInclude Include="movesK.h">
+      <Filter>Header Files\battle\moves</Filter>
+    </ClInclude>
+    <ClInclude Include="movesL.h">
+      <Filter>Header Files\battle\moves</Filter>
+    </ClInclude>
+    <ClInclude Include="movesM.h">
+      <Filter>Header Files\battle\moves</Filter>
+    </ClInclude>
+    <ClInclude Include="movesN.h">
+      <Filter>Header Files\battle\moves</Filter>
+    </ClInclude>
+    <ClInclude Include="movesO.h">
+      <Filter>Header Files\battle\moves</Filter>
+    </ClInclude>
+    <ClInclude Include="movesP.h">
+      <Filter>Header Files\battle\moves</Filter>
+    </ClInclude>
+    <ClInclude Include="movesQ.h">
+      <Filter>Header Files\battle\moves</Filter>
+    </ClInclude>
+    <ClInclude Include="movesR.h">
+      <Filter>Header Files\battle\moves</Filter>
+    </ClInclude>
+    <ClInclude Include="movesS.h">
+      <Filter>Header Files\battle\moves</Filter>
+    </ClInclude>
+    <ClInclude Include="movesT.h">
+      <Filter>Header Files\battle\moves</Filter>
+    </ClInclude>
+    <ClInclude Include="movesU.h">
+      <Filter>Header Files\battle\moves</Filter>
+    </ClInclude>
+    <ClInclude Include="movesV.h">
+      <Filter>Header Files\battle\moves</Filter>
+    </ClInclude>
+    <ClInclude Include="movesW.h">
+      <Filter>Header Files\battle\moves</Filter>
+    </ClInclude>
+    <ClInclude Include="movesY.h">
+      <Filter>Header Files\battle\moves</Filter>
+    </ClInclude>
+    <ClInclude Include="movesZ.h">
+      <Filter>Header Files\battle\moves</Filter>
+    </ClInclude>
+    <ClInclude Include="addcreaturemessage.h">
+      <Filter>Header Files\messages</Filter>
+    </ClInclude>
+    <ClInclude Include="creatureturnmessage.h">
+      <Filter>Header Files\messages</Filter>
+    </ClInclude>
+    <ClInclude Include="netmessage.h">
+      <Filter>Header Files\messages</Filter>
+    </ClInclude>
+    <ClInclude Include="playerWalkMessage.h">
+      <Filter>Header Files\messages</Filter>
+    </ClInclude>
+    <ClInclude Include="playerwarpmessage.h">
+      <Filter>Header Files\messages</Filter>
+    </ClInclude>
+    <ClInclude Include="receiveloginmessage.h">
+      <Filter>Header Files\messages</Filter>
+    </ClInclude>
+    <ClInclude Include="refreshworldmessage.h">
+      <Filter>Header Files\messages</Filter>
+    </ClInclude>
+    <ClInclude Include="removecreaturemessage.h">
+      <Filter>Header Files\messages</Filter>
+    </ClInclude>
+    <ClInclude Include="sendloginmessage.h">
+      <Filter>Header Files\messages</Filter>
+    </ClInclude>
+    <ClInclude Include="sendplayerdata.h">
+      <Filter>Header Files\messages</Filter>
+    </ClInclude>
+    <ClInclude Include="sendtilesmessage.h">
+      <Filter>Header Files\messages</Filter>
+    </ClInclude>
+    <ClInclude Include="battlemessage.h">
+      <Filter>Header Files\messages\battle</Filter>
+    </ClInclude>
+    <ClInclude Include="ratiorefreshmessage.h">
+      <Filter>Header Files\messages\battle</Filter>
+    </ClInclude>
+    <ClInclude Include="updatepokemonstatusmessage.h">
+      <Filter>Header Files\messages\battle</Filter>
+    </ClInclude>
+    <ClInclude Include="sha1.h">
+      <Filter>Header Files\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="tools.h">
+      <Filter>Header Files\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="iogame.h">
+      <Filter>Header Files\io</Filter>
+    </ClInclude>
+    <ClInclude Include="iomap.h">
+      <Filter>Header Files\io</Filter>
+    </ClInclude>
+    <ClInclude Include="iomap_db.h">
+      <Filter>Header Files\io</Filter>
+    </ClInclude>
+    <ClInclude Include="iomap_v2.h">
+      <Filter>Header Files\io</Filter>
+    </ClInclude>
+    <ClInclude Include="ioplayer.h">
+      <Filter>Header Files\io</Filter>
+    </ClInclude>
+    <ClInclude Include="item.h">
+      <Filter>Header Files\items</Filter>
+    </ClInclude>
+    <ClInclude Include="items.h">
+      <Filter>Header Files\items</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

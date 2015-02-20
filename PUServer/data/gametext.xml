@@ -1,0 +1,228 @@
+<?xml version="1.0"?>
+<gametext>
+	<sentence id='1'>
+		<part color='0' var='0' text='You encountered a wild ' />
+		<part color='4' var='1' />
+		<part color='0' var='0' text='.' />
+	</sentence>
+	<sentence id='2'>
+		<part color='0' var='0' text='What will ' />
+		<part color='4' var='1' />
+		<part color='0' var='0' text=' do?' />
+	</sentence>
+	<sentence id='3'>
+		<part color='4' var='1' />
+		<part color='0' var='0' text=' used ' />
+		<part color='5' var='1' />
+		<part color='0' var='0' text='.' />
+	</sentence>
+	<sentence id='4'>
+		<part color='4' var='1' />
+		<part color='0' var='0' text=' used ' />
+		<part color='5' var='1' />
+		<part color='0' var='0' text=' on ' />
+		<part color='4' var='1' />
+		<part color='0' var='0' text='.' />		
+	</sentence>	
+	<sentence id='5'>
+		<part color='0' var='0' text='Waiting for opponent.' />
+	</sentence>
+	<sentence id='6'>
+		<part color='0' var='0' text='Trying to run from battle...' />
+	</sentence>
+	<sentence id='7'>
+		<part color='0' var='0' text='Failed to run from battle!' />
+	</sentence>
+	<sentence id='8'>
+		<part color='0' var='0' text='Got away safely!' />
+	</sentence>	
+	<sentence id='9'>
+		<part color='0' var='0' text='Please choose a new Pokemon.' />
+	</sentence>
+	<sentence id='10'>
+		<part color='4' var='1' />
+		<part color='4' var='0' text="'s " />
+		<part color='0' var='0' text="attack missed." />
+	</sentence>
+	<sentence id='11'>
+		<part color='3' var='0' text="It's a critical hit!" />
+	</sentence>	
+	<sentence id='12'>
+		<part color='4' var='1' />
+		<part color='0' var='0' text=" fainted." />
+	</sentence>
+	<sentence id='13'>
+		<part color='4' var='1' />
+		<part color='0' var='0' text=" gets " />
+		<part color='4' var='1' />
+		<part color='0' var='0' text=" experience points." />
+	</sentence>
+	<sentence id='14'>
+		<part color='4' var='1' />
+		<part color='0' var='0' text=" grew to level " />
+		<part color='5' var='1' />
+	</sentence>	
+	<sentence id='15'>
+		<part color='1' var='1' />
+		<part color='0' var='0' text=" changed Pokemon to " />
+		<part color='4' var='1' />
+	</sentence>	
+	<sentence id='16'>
+		<part color='0' var='0' text="It's not effective!" />
+	</sentence>	
+	<sentence id='17'>
+		<part color='0' var='0' text="It's not very effective!" />
+	</sentence>
+	<sentence id='18'>
+		<part color='0' var='0' text="It's very effective!" />
+	</sentence>
+	<sentence id='19'>
+		<part color='0' var='0' text="It's super effective!" />
+	</sentence>
+	<sentence id='20'>
+		<part color='4' var='1' />
+		<part color='4' var='0' text="'s " />
+		<part color='0' var='1' />
+		<part color='0' var='0' text=' fell.' />
+	</sentence>	
+	<sentence id='21'>
+		<part color='4' var='1' />
+		<part color='4' var='0' text="'s " />
+		<part color='0' var='1' />
+		<part color='0' var='0' text=' harshly fell.' />
+	</sentence>
+	<sentence id='22'>
+		<part color='4' var='1' />
+		<part color='4' var='0' text="'s " />
+		<part color='0' var='1' />
+		<part color='0' var='0' text=' rose.' />
+	</sentence>	
+	<sentence id='23'>
+		<part color='4' var='1' />
+		<part color='4' var='0' text="'s " />
+		<part color='0' var='1' />
+		<part color='0' var='0' text=' sharply rose.' />
+	</sentence>
+	<sentence id='24'>
+		<part color='4' var='1' />
+		<part color='0' var='0' text=" is now " />
+		<part color='5' var='1' />
+	</sentence>
+	<sentence id='25'>
+		<part color='4' var='1' />
+		<part color='0' var='0' text=" is not " />
+		<part color='5' var='1' />
+		<part color='0' var='0' text=" anymore." />
+	</sentence>
+	<sentence id='26'>
+		<part color='0' var='0' text="Your Pokemon fainted. Please choose a new Pokemon." />
+	</sentence>
+	<sentence id='27'>
+		<part color='4' var='1' />
+		<part color='0' var='0' text=" is trying to learn " />
+		<part color='5' var='1' />
+		<part color='0' var='0' text=". Choose a slot to put it." />
+	</sentence>
+	<sentence id='28'>
+		<part color='4' var='1' />
+		<part color='0' var='0' text=" has now learned " />
+		<part color='5' var='1' />
+	</sentence>
+	<sentence id='29'>
+		<part color='4' var='1' />
+		<part color='0' var='0' text=" flinched." />
+	</sentence>	
+	<sentence id='30'>
+		<part color='4' var='1' />
+		<part color='0' var='0' text=" is charging." />
+	</sentence>
+	<sentence id='31'>
+		<part color='0' var='0' text="It hit " />
+		<part color='5' var='1' />
+		<part color='0' var='0' text=" times." />
+	</sentence>	
+	<sentence id='32'>
+		<part color='5' var='1' />
+		<part color='0' var='0' text=" has left the battle." />
+	</sentence>
+	<sentence id='33'>
+		<part color='5' var='1' />
+		<part color='0' var='0' text=" has no more usable Pokemon and has left the battle." />
+	</sentence>	
+	<sentence id='34'>
+		<part color='4' var='1' />
+		<part color='0' var='0' text=" is hurt by " />
+		<part color='5' var='1' />
+	</sentence>
+	<sentence id='35'>
+		<part color='0' var='0' text="The attack failed because " />
+		<part color='5' var='1' />
+		<part color='0' var='0' text=" is disabled." />
+	</sentence>	
+	<sentence id='36'>
+		<part color='0' var='0' text="Choose an item to use..." />
+	</sentence>	
+	<sentence id='37'>
+		<part color='0' var='0' text="On which Pokemanz do you want to use this item?" />
+	</sentence>	
+	<sentence id='38'>
+		<part color='5' var='1' />
+		<part color='0' var='0' text=" used " />
+		<part color='6' var='1' />
+		<part color='0' var='0' text=" on " />
+		<part color='4' var='1' />
+	</sentence>	
+	<sentence id='39'>
+		<part color='0' var='0' text="Some of " />
+		<part color='5' var='1' />
+		<part color='5' var='0' text="'s " />
+		<part color='6' var='1' />
+		<part color='0' var='0' text=" restored." />
+	</sentence>		
+	<sentence id='40'>
+		<part color='5' var='1' />
+		<part color='0' var='0' text=" throws a " />
+		<part color='6' var='1' />
+		<part color='0' var='0' text=" to " />
+		<part color='4' var='1' />
+	</sentence>	
+	<sentence id='41'>
+		<part color='4' var='1' />
+		<part color='0' var='0' text=" has been cought!" />
+	</sentence>	
+	<sentence id='42'>
+		<part color='4' var='1' />
+		<part color='0' var='0' text=" escaped from the " />
+		<part color='6' var='1' />
+	</sentence>
+	<sentence id='43'>
+		<part color='5' var='1' />
+		<part color='5' var='0' text="'s " />
+		<part color='0' var='0' text=" turn" />
+	</sentence>	
+	<sentence id='44'>
+		<part color='5' var='1' />
+		<part color='0' var='0' text=' sends ' />
+		<part color='4' var='1' />
+		<part color='0' var='0' text=' to battle.' />
+	</sentence>	
+	<sentence id='45'>
+		<part color='0' var='0' text='Do you want to change Pokemon?' />
+	</sentence>
+	<sentence id='46'>
+		<part color='0' var='0' text='You get ' />
+		<part color='4' var='1' />
+		<part color='0' var='0' text=' goldz for winning.' />
+	</sentence>		
+	<sentence id='666'>
+		<part color='4' var='1' />
+		<part color='0' var='0' text=' is confused.' />
+	</sentence>	
+	<sentence id='667'>
+		<part color='4' var='1' />
+		<part color='0' var='0' text=' hurt itself due to confusion.' />
+	</sentence>	
+	<sentence id='668'>
+		<part color='0' var='0' text='But nothing happened!' />
+	</sentence>		
+</gametext>

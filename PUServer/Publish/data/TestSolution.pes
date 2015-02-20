@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<solution>
+  <info name="TestSolution" />
+  <maps>
+    <map name="Area52.pem" />
+  </maps>
+</solution>

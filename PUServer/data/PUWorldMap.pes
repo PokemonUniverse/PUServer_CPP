@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<solution>
+  <info name="Pokemon Universe" />
+  <maps>
+    <map name="NorthWest_8.pem" />
+    <map name="NorthWest_2.pem" />
+    <map name="NorthWest_3.pem" />
+    <map name="NorthWest_4.pem" />
+    <map name="NorthWest_9.pem" />
+    <map name="NorthWest_6.pem" />
+    <map name="NorthWest_7.pem" />
+    <map name="NorthWest_1.pem" />
+    <map name="NorthWest_5.pem" />
+    <map name="NorthWest_10.pem" />
+	<map name="Caves.pem" />
+	<map name="Inside Forests.pem" />
+	<map name="GateHouses.pem" />
+	<map name="PokeCenters.pem" />
+	<map name="PokeMarts.pem" />
+  </maps>
+</solution>

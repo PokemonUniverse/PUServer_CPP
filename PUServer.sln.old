@@ -1,0 +1,28 @@
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PUServer", "PUServer\PUServer.vcproj", "{ACD9BB0F-D5F2-4E9C-AFF8-03D666F8A931}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PUServer_2", "PUServer_2\PUServer_2.vcproj", "{9AF8EDF5-DD9D-48DC-ADED-145C056408B9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ACD9BB0F-D5F2-4E9C-AFF8-03D666F8A931}.Debug|Win32.ActiveCfg = Debug|Win32
+		{ACD9BB0F-D5F2-4E9C-AFF8-03D666F8A931}.Debug|Win32.Build.0 = Debug|Win32
+		{ACD9BB0F-D5F2-4E9C-AFF8-03D666F8A931}.Release|Win32.ActiveCfg = Release|Win32
+		{ACD9BB0F-D5F2-4E9C-AFF8-03D666F8A931}.Release|Win32.Build.0 = Release|Win32
+		{9AF8EDF5-DD9D-48DC-ADED-145C056408B9}.Debug|Win32.ActiveCfg = Debug|Win32
+		{9AF8EDF5-DD9D-48DC-ADED-145C056408B9}.Debug|Win32.Build.0 = Debug|Win32
+		{9AF8EDF5-DD9D-48DC-ADED-145C056408B9}.Release|Win32.ActiveCfg = Release|Win32
+		{9AF8EDF5-DD9D-48DC-ADED-145C056408B9}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		VisualSVNWorkingCopyRoot = 
+	EndGlobalSection
+EndGlobal
